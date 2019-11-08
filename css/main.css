@@ -138,6 +138,9 @@ a {
     align-items: center;
     padding: 5rem 3rem;
   }
+  .wallpaper {
+    opacity: 0.2;
+  }
 
   .side {
     margin-bottom: 3rem;
@@ -147,7 +150,7 @@ a {
 
 @media screen and (min-width: 800px) {
   .content {
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-around;
     justify-content: space-evenly;
     padding: 4rem;
