@@ -85,6 +85,7 @@ a {
 .job {
   color: #ffe479;
   font-size: 0.75rem;
+  font-weight: bold;
 }
 .wallpaper {
   background-image: url("../images/saikung.jpg");
