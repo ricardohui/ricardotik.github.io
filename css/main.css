@@ -130,6 +130,40 @@ a {
   border-radius: 290486px;
   position: absolute;
 }
+
+.social {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.social li {
+  height: 2rem;
+  margin-right: 0.5rem;
+  text-align: center;
+  width: 2rem;
+}
+
+.social a {
+  align-items: center;
+  display: flex;
+  font-size: 1.5rem;
+  height: 2rem;
+  justify-content: center;
+  opacity: 0.5;
+  transition-property: opacity, transform;
+  width: 2rem;
+  will-change: opacity, transform;
+}
+
+.social a:hover {
+  opacity: 1;
+  transform: scale(1.25);
+}
+.social a.active {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
 /*Responsiveness*/
 
 @media screen and (max-width: 799px) {
