@@ -109,7 +109,6 @@
   animation-timing-function: ease-out;
 }
 .wallpaper.is-loaded {
-  animation-delay: 1s;
   animation-name: zoomOut;
 }
 
